@@ -1,7 +1,7 @@
 # Sphinx documentation generator
-sphinx>=7.0.0
+sphinx>=7.0.0,<8.0.0
 
-# Read the Docs theme
+# Read the Docs themes
 sphinx-rtd-theme>=2.0.0
 
 # Markdown support
@@ -9,6 +9,3 @@ myst-parser>=2.0.0
 
 # Copy button for code blocks
 sphinx-copybutton>=0.5.0
-
-# Better search
-sphinx-search>=0.1.0
