@@ -1,28 +1,97 @@
-Read the Docs tutorial
-======================
+.. Night Owl Protect documentation master file
 
-This is the end of the tutorial. You have accomplished a lot:
+Welcome to Night Owl Protect Documentation
+===========================================
 
-#. Forked a GitHub repository.
-#. Connected it to Read the Docs.
-#. Built its HTML documentation.
-#. Customized the build process.
-#. Added new documentation versions.
-#. Browsed the project analytics.
+.. image:: _static/images/hero-banner.png
+   :alt: Night Owl Protect
+   :align: center
 
-Nice work!
+**Night Owl Protect** is the central mobile app and web portal for managing Night Owl Security Products surveillance systems. It allows users to view live feeds, receive motion alerts, access recordings, and use advanced features like 2-way audio.
 
-Here are some resources to help you continue learning about documentation
-and Read the Docs:
+.. note::
 
-- Learn more about the platform :doc:`features </reference/features>`.
-- Learn about other supported documentation generators in the :doc:`Sphinx tutorial <sphinx:tutorial/index>` or the `MkDocs User Guide <https://www.mkdocs.org/user-guide/>`_.
-- See a list of Read the Docs :doc:`/examples`.
-- Learn how to do specific tasks in the :doc:`/guides/index`.
-- Learn about private project support and other enterprise features
-  in :doc:`our commercial service guide </commercial/index>`.
-- Join a global community of fellow `documentarians <writethedocs:documentarians>` in `Write the Docs <https://www.writethedocs.org/>`_ and
-  :doc:`its Slack workspace <writethedocs:slack>`.
-- Contribute to Read the Docs in :doc:`rtd-dev:contribute`, we appreciate it!
+   This documentation is under active development. Last updated: January 2024.
 
-Happy documenting!
+Key Features
+------------
+
+🎥 **Live Video Streaming**
+   Watch real-time feeds from all your cameras in one place.
+
+🔔 **Smart Motion Alerts**
+   Receive instant notifications for humans, faces, and vehicles.
+
+📼 **Cloud & Local Recording**
+   Access your recordings anytime, anywhere.
+
+🔊 **2-Way Audio**
+   Communicate through your cameras with built-in speakers.
+
+🔐 **2-Step Verification**
+   Keep your security system secure with additional authentication.
+
+Getting Started
+---------------
+
+New to Night Owl Protect? Start here:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: 📚 Getting Started
+
+   getting-started/installation
+   getting-started/quick-start
+   getting-started/system-requirements
+
+User Guide
+----------
+
+.. toctree::
+   :maxdepth: 2
+   :caption: 📖 User Guide
+
+   user-guide/dashboard
+   user-guide/live-view
+   user-guide/recordings
+   user-guide/alerts
+   user-guide/settings
+
+Devices & Setup
+---------------
+
+.. toctree::
+   :maxdepth: 2
+   :caption: 📷 Devices
+
+   devices/cameras
+   devices/recorders
+   devices/adding-devices
+
+Troubleshooting
+---------------
+
+.. toctree::
+   :maxdepth: 2
+   :caption: 🔧 Support
+
+   support/faq
+   support/troubleshooting
+   support/contact
+
+API Reference
+-------------
+
+.. toctree::
+   :maxdepth: 2
+   :caption: 👨‍💻 Developers
+
+   api/overview
+   api/authentication
+   api/endpoints
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`search`
